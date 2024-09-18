@@ -12,4 +12,5 @@ class Design extends Model
     public function employees(){
         return $this->belongsToMany(Employee::class,'working','design_id','employee_id');
     }
+
 }

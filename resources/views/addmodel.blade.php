@@ -110,8 +110,9 @@
 </head>
 <body>
 <div class="form-container">
+    @csrf
     <h2>نموذج الإدخال</h2>
-    <form>
+    <form action="/Design/create" method="POST">
         <div class="form-grid">
             <!-- Left Side Inputs -->
             <div class="form-group">
